@@ -1,0 +1,145 @@
+.dash__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dash__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: #fff;
+  background-color: #0073b7;
+  border-radius: 3px;
+}
+
+.dash__item:hover {
+  color: #fff;
+}
+
+.dash__item-header {
+  position: relative;
+  padding: 10px;
+  z-index: 10;
+}
+
+.dash__count {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.dash__title {
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.dash__item-plus-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 90px;
+  transition: font-size 0.3s;
+  color: rgba(0,0,0,0.15);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.dash__item:hover .dash__item-plus-icon {
+  font-size: 95px;
+}
+
+.dash__item-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  color: rgba(255,255,255,0.8);
+  background: rgba(0,0,0,0.1);
+}
+
+.dash__item-footer:hover {
+  color: #fff;
+}
+
+.dash__item-arrow-icon {
+  margin-left: 5px;
+}
+
+.dash__user-flags-header {
+  min-height: 165px;
+}
+
+.dash__user-flags-part {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.dash__checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.dash__checkbox-label {
+  cursor: pointer;
+}
+
+.dash__input {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.dash__input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dash__item-header .form-button {
+  margin-top: 15px;
+  background-color: rgb(0, 98, 156);
+}
+
+.dash__check-icon {
+  margin-left: 5px;
+}
+
+@media (min-width: 992px) {
+  .dash-flags .form-button {
+    margin-right: 100px;
+  }
+
+  .dash__user-flags-part {
+    justify-content: flex-start;
+  }
+
+  .dash__checkbox-label {
+    /* width: 150px; */
+  }
+}
+.dash-slots {
+  padding-right: 70px;
+}
+
+.dash-flags .form-button {}
+
+.dash-flags .dash__checkbox-label {
+  /* display: block; */
+  width: 150px;
+}
+
+.dash-slots .dash__checkbox-label {
+  width: 100px;
+}
+
+.dash-slots__checkboxes-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dash-slots__checkboxes-column {
+  flex-basis: 120px;
+  margin-right: 20px;
+}

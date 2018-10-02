@@ -1,0 +1,25 @@
+
+.login__logo-wrap {
+  margin-bottom: 20px;
+}
+
+.login__wrap {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.login-buttons {
+  text-align: center;
+}
+
+.login-button {
+  position: relative;
+}
+
+.login__field-wrap {
+  margin-bottom: 25px;
+}
+
+.login__field-error {
+  color: #F44336;
+}

@@ -1,0 +1,194 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-head {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #f3f4f5;
+  border: solid #ddd;
+  border-width: 1px 0;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f4f5 ;
+  border-top: 1px solid #ddd;
+}
+
+.td__span {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.td__span:last-child {
+  padding-bottom: 0;
+}
+
+.props-table-cell {
+  width: calc(100%/5 - 100px/5);
+}
+
+.props-table-cell:nth-child(4) {
+  width: 170px;
+}
+
+.props-table-cell:nth-child(6),
+.props-table-cell:nth-child(7),
+.props-table-cell:nth-child(8) {
+  width: 100px;
+}
+
+.agents-table-cell {
+  width: 25%;
+}
+
+.landlords-table-cell {
+  width: 25%;
+}
+
+.viewing-requests-table-cell {
+  width: calc(100% / 8);
+}
+
+.viewing-requests-table-cell:nth-child(3) {
+  text-align: center;
+}
+
+.viewing-times-table-cell {
+  width: 25%;
+}
+
+.facet-options-table-cell {
+  width: calc(100% / 4);
+}
+
+.tag-options-table-cell {
+  width: 33.33%;
+}
+
+.prop-tags-table-cell {
+  width: 25%;
+}
+
+.prop-rate-table-cell {
+  width: 25%;
+}
+
+.users-table-cell {
+  width: 33.33%;
+}
+
+.user-tags-table-cell {
+  width: 25%;
+}
+
+.user-flags-table-cell {
+  width: 14.28%;
+}
+
+.slots-params-table-cell {
+  width: calc(100%/9);
+}
+
+.slots-params-table-cell:first-child {
+  width: 15%;
+}
+
+.table-head__cell {
+  position: relative;
+  padding: 8px 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-head__cell:hover {
+  background-color: #ddd;
+}
+
+.table-head__cell.table__cell-edit,
+.table-head__cell.table__cell-delete {
+  cursor: default;
+}
+
+.table-head__cell.table__cell-edit:hover,
+.table-head__cell.table__cell-delete:hover {
+  cursor: default;
+  background-color: transparent;
+}
+
+.table__cell-filter-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.5;
+}
+
+.table__cell-filter-icon.fa-exchange-alt {
+  transform: rotate(-90deg);
+}
+
+.table-body {
+  background-color: #fff;
+}
+
+.table__cell {
+  /* width: 400px; */
+  padding: 6px 15px;
+  overflow: hidden;
+}
+
+.table__cell-edit,
+.table__cell-delete {
+  width: 62px;
+}
+
+.table-head__cell-edit {
+
+}
+
+.delete-cell-button,
+.edit-cell-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.edit-cell-button {
+  background-color: #3c8dbc;
+  border: 1px solid #367fa9;
+}
+
+.delete-cell-button {
+  background-color: #dd4b39;
+  border: 1px solid #d73925;
+}
+
+.edit-cell-button:hover {
+  background-color: #367fa9;
+  color: #fff;
+}
+
+.delete-cell-button:hover {
+  background-color: #d73925;
+  color: #fff;
+}
+
+.addit-pag {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.addit-pag-elem-wrap .pagination__select {
+  width: 130px;
+}

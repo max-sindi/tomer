@@ -1,0 +1,19 @@
+.ui.message.error {
+  position: fixed;
+  width: 320px;
+  z-index: 100;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  /* height: 30px; */
+  /* background-color: #000;
+  color: #fff; */
+}
+
+.error__button {
+  padding-left: 10px;
+}
+
+.error__message {
+  padding-right: 20px;
+}

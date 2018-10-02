@@ -1,0 +1,19 @@
+.body {
+  overflow: hidden;
+  background-color: #ecf0f5;
+}
+
+.padded {
+  padding: 1em;
+}
+
+.clear-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
